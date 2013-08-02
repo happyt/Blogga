@@ -6,6 +6,7 @@ Enables you to use the Node templating engine Jade for Bootstrap by delivering a
 Special focus was made to match [Twitter's Bootstrap][bootstrap] 2.2.2 examples.
 
 This project uses existing work from [Andy Jarett][l1] and [Dirk Krause][l2]
+and github: [github.com/SeraphimSerapis][github]<br/>
 
 ===
 
@@ -27,11 +28,8 @@ The footer can be modified by changing *views/inc/footer.jade*.
 
 
 
-Contact
+Sources
 ==================
-github: [github.com/SeraphimSerapis][github]<br/>
-Twitter: [@SeraAndroid][twitter]<br/>
-Mail: <tmesserschmidt@paypal.com>
 
 [bootstrap]: http://twitter.github.com/bootstrap/
 [github]: https://github.com/SeraphimSerapis

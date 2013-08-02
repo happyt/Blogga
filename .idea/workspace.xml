@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51f2da31-24a0-460b-a11f-c71151115ef8" name="Default" comment="" />
+    <list default="true" id="51f2da31-24a0-460b-a11f-c71151115ef8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="Bootstrap-for-Jade.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="51f2da31-24a0-460b-a11f-c71151115ef8" time="1375447721275" ignored="false" />
@@ -12,7 +14,7 @@
     <file path="/balloon.jade" changelist="51f2da31-24a0-460b-a11f-c71151115ef8" time="1374483746599" ignored="false" />
     <file path="/menus.jade" changelist="51f2da31-24a0-460b-a11f-c71151115ef8" time="1374483858762" ignored="false" />
     <file path="/footer.jade" changelist="51f2da31-24a0-460b-a11f-c71151115ef8" time="1374507105869" ignored="false" />
-    <file path="/README.md" changelist="51f2da31-24a0-460b-a11f-c71151115ef8" time="1374517022996" ignored="false" />
+    <file path="/README.md" changelist="51f2da31-24a0-460b-a11f-c71151115ef8" time="1375449239844" ignored="false" />
     <file path="/package.json" changelist="51f2da31-24a0-460b-a11f-c71151115ef8" time="1374511433238" ignored="false" />
     <file path="/about.jade" changelist="51f2da31-24a0-460b-a11f-c71151115ef8" time="1374514675537" ignored="false" />
     <file path="/blog.jade" changelist="51f2da31-24a0-460b-a11f-c71151115ef8" time="1374614251524" ignored="false" />
@@ -71,10 +73,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="6" selection-start="1684" selection-end="1684" vertical-scroll-proportion="1.6956521">
+            <state line="65" column="6" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="18" selection-start="537" selection-end="537" vertical-scroll-proportion="0.19928825">
               <folding />
             </state>
           </provider>
@@ -93,15 +104,6 @@
         <entry file="file://$PROJECT_DIR$/views/projects.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="333" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articleprovider-memory.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articleprovider-memory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="42" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,13 +153,13 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/home.jade" />
         <option value="$PROJECT_DIR$/views/about.jade" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/articleprovider-memory.js" />
         <option value="$PROJECT_DIR$/views/projects.jade" />
         <option value="$PROJECT_DIR$/views/blog.jade" />
         <option value="$PROJECT_DIR$/views/test.jade" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -336,11 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -426,7 +423,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="6" selection-start="1684" selection-end="1684" vertical-scroll-proportion="1.6956521">
+        <state line="65" column="6" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="537" selection-end="537" vertical-scroll-proportion="0.19928825">
           <folding />
         </state>
       </provider>
