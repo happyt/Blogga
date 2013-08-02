@@ -1,11 +1,19 @@
-Bootstrap for Jade
-==================
+MEAN based on Bootstrap for Jade
+================================
 
 Enables you to use the Node templating engine Jade for Bootstrap by delivering a layout.jade file and the needed includes.
 
 Special focus was made to match [Twitter's Bootstrap][bootstrap] 2.2.2 examples.
 
 This project uses existing work from [Andy Jarett][l1] and [Dirk Krause][l2]
+
+===
+
+Added mongo, mongoose, angular reading these urls
+http://thecodebarbarian.wordpress.com/
+
+http://howtonode.org/express-mongodb
+
 
 Usage
 ==================

@@ -1,3 +1,20 @@
-div.hero-unit
-  h1= title
-  p Welcome to #{title}
+!!!
+html
+    include inc/header
+
+        body
+
+            include inc/menubar
+
+            div.span3.hero-unit
+                h1= title
+                p This is the #{title}
+
+            div.span8
+                h1 Main idea
+                p This is the first paragraph
+
+            div.span12.container!= body
+                include inc/footer
+
+        include inc/scripts

@@ -1,0 +1,13 @@
+div.navbar.navbar-fixed-top
+    div.navbar-inner
+        div.container
+            a(href='#').brand #{menus}
+            ul.nav
+                - var obj = { 'home':'Home','projects':'Projects', 'about':'About' }
+                    - each val, key in obj
+                        - if (id == key)
+                            li.active
+                                a(href='#{key}') #{val}
+                        - else
+                            li
+                                a(href='#{key}') #{val}

@@ -1,0 +1,18 @@
+!!!
+html
+    include inc/header
+        body
+            include inc/menubar
+            abc
+            h1= titlex
+            #article
+                - each article in articles
+                    div.article
+                        div.created_at= article.created_at
+                        div.title
+                            a(href="/blog/"+article._id)!= article.title
+                        div.body= article.body
+
+            include inc/footer
+
+    include inc/scripts
