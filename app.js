@@ -4,7 +4,7 @@
 
 var express = require('express')
     , routes = require('./routes')
-    , datafeed = require('./routes/datafeed')
+    8 , datafeed = require('./routes/datafeed')
   , http = require('http')
   , path = require('path');
 
@@ -63,7 +63,7 @@ app.get('/blog/new',
             locals: {
                 title: 'New Post'
             }
-        });
+         });
     });
 
 // ===========================  POST

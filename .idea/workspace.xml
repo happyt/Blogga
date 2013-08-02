@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f2da31-24a0-460b-a11f-c71151115ef8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/MEAN.iml" afterPath="$PROJECT_DIR$/.idea/Blogga.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/about.jade" afterPath="$PROJECT_DIR$/views/about.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/blog.jade" afterPath="$PROJECT_DIR$/views/blog.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/express" afterPath="$PROJECT_DIR$/node_modules/.bin/express" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/inc/footer.jade" afterPath="$PROJECT_DIR$/views/inc/footer.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home.jade" afterPath="$PROJECT_DIR$/views/home.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/jade" afterPath="$PROJECT_DIR$/node_modules/.bin/jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/inc/menubar.jade" afterPath="$PROJECT_DIR$/views/inc/menubar.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/character-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/character-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/commander/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/monocle/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/uglify-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/projects.jade" afterPath="$PROJECT_DIR$/views/projects.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test.jade" afterPath="$PROJECT_DIR$/views/test.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/.bin/uglifyjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/.bin/uglifyjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Bootstrap-for-Jade.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,37 +61,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="about.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/about.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="balloon.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/inc/balloon.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/test.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="36" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="17" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+            <state line="30" column="28" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datafeed.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/datafeed.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,52 +82,25 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="6" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
+            <state line="10" column="57" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="blog_show_full.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/blog_show_full.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="537" selection-end="537" vertical-scroll-proportion="0.19928825">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menubar.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/inc/menubar.jade">
+      <file leaf-file-name="articleprovider-mongodb.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/articleprovider-mongodb.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="37" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/projects.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="333" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/home.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="2" selection-start="353" selection-end="380" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/blog.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,14 +137,15 @@
         <option value="$PROJECT_DIR$/views/blog.jade" />
         <option value="$PROJECT_DIR$/views/test.jade" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/routes/datafeed/data.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
-    <option name="y" value="238" />
+    <option name="x" value="218" />
+    <option name="y" value="387" />
     <option name="width" value="1122" />
     <option name="height" value="744" />
   </component>
@@ -199,17 +179,45 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MEAN" />
+              <option name="myItemId" value="Blogga" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MEAN" />
+              <option name="myItemId" value="Blogga" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Blogga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blogga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,7 +255,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="238" width="1122" height="744" extended-state="0" />
+    <frame x="218" y="387" width="1122" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -331,23 +339,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="211" selection-end="211" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/Readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/inc/footer.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="3" selection-start="10" selection-end="10" vertical-scroll-proportion="0.027829314" />
@@ -367,35 +358,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/inc/balloon.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="2" selection-start="353" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/blog.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/inc/menus.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="3" selection-start="31" selection-end="31" vertical-scroll-proportion="0.055658627" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/inc/menubar.jade">
+    <entry file="file://$PROJECT_DIR$/views/test.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="37" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+        <state line="3" column="36" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -407,30 +377,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/views/inc/menubar.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="17" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+        <state line="12" column="20" selection-start="474" selection-end="474" vertical-scroll-proportion="0.31304348">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/test.jade">
+    <entry file="file://$PROJECT_DIR$/views/blog.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/views/home.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="6" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.0">
+        <state line="20" column="2" selection-start="353" selection-end="380" vertical-scroll-proportion="0.50167227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/inc/balloon.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="537" selection-end="537" vertical-scroll-proportion="0.19928825">
+        <state line="16" column="33" selection-start="0" selection-end="1200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/datafeed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="28" selection-start="894" selection-end="894" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="57" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/blog_show_full.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articleprovider-mongodb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

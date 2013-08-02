@@ -1,0 +1,30 @@
+!!!
+html
+    include inc/header
+        body
+            include inc/menubar
+            h1= title
+            div.article
+                div
+                    h4 locals.article.created_at
+                div locals.article.title
+                div locals.article.body
+                - each comment in article.comments
+                    div.comment
+                        div.person= comment.person
+                        div.comment= comment.comment
+                    div
+                        form( method="post", action="/blog/addComment")
+                            input( type="hidden", name="_id", value=article._id.toHexString())
+                            div
+                                span Author :
+                                input( type="text", name="person", id="addCommentPerson")
+                            div
+                                span Comment :
+                                textarea( name="comment", rows=5, id="addCommentComment")
+                            div#editArticleSubmit
+                    input(type="submit", value="Send")
+                include inc/footer
+     include inc/scripts
+
+

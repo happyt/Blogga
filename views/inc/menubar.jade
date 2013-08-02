@@ -3,7 +3,7 @@ div.navbar.navbar-fixed-top
         div.container
             a(href='#').brand #{menus}
             ul.nav
-                - var obj = { 'home':'Home','projects':'Projects', 'about':'About' }
+                - var obj = { 'home':'Home','projects':'Projects', 'blog':'Blog', 'about':'About' }
                     - each val, key in obj
                         - if (id == key)
                             li.active

@@ -8,11 +8,12 @@ html
 
             div.span3.hero-unit
                 h1= title
-                p This is the #{title}
+                p This is the #{title} page
 
             div.span8
                 h1 About idea
-                p This is the first paragraph
+                p This is the first paragraph #{test} abc and shows the 'test' variable
+                  . and other things yet to be defined
 
             div.span12.container!= body
                 include inc/footer

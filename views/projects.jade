@@ -8,14 +8,15 @@ html
 
         div.span3.hero-unit
             h1= title
-            p This is the #{title}
+            p This is the #{title} page
 
         div.span8
             h1 Main idea
             p This is the first paragraph
 
         div.span12.container!= body
+            p This is body copy
 
-        include inc/footer
+            include inc/footer
 
     include inc/scripts
