@@ -55,16 +55,18 @@ app.get('/projects', routes.projects);
 app.get('/test', datafeed.test);
 app.get('/blog', routes.blog);
 
-app.get('/blog/:id', routes.blog_show);
-
 app.get('/blog/new',
     function(req, res) {
+
+        console.log('========= NEW');
         res.render('blog_new.jade', {
             locals: {
                 title: 'New Post'
             }
          });
     });
+
+app.get('/blog/:id', routes.blog_show);
 
 // ===========================  POST
 

@@ -7,8 +7,10 @@ html
             div.article
                 div
                     h4 locals.article.created_at
-                div locals.article.title
+                div locals.titlex
                 div locals.article.body
+
+                div comments---
                 - each comment in article.comments
                     div.comment
                         div.person= comment.person
