@@ -1,11 +1,21 @@
-h1= title
-form( method="post")
-    div
-        div
-            span Title :
-            input(type="text", name="title", id="editArticleTitle")
-        div
-            span2 Body :
-            textarea( name="body", rows=20, id="editArticleBody")
-        div#editArticleSubmit
-            input(type="submit", value="Send")
+!!!
+html
+    include inc/header
+        body
+            include inc/menubar
+
+            h1= title
+            form( method="post")
+                div
+                    div
+                        span Title :
+                        input(type="text", name="title", id="editArticleTitle")
+                    div
+                        span2 Body :
+                        textarea( name="body", rows=20, id="editArticleBody")
+                    div#editArticleSubmit
+                        input(type="submit", value="Send")
+
+            div.span12.container!= body
+                include inc/footer
+     include inc/scripts

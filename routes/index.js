@@ -45,8 +45,7 @@ exports.blog_show = function(req, res) {
     articleProvider.findById(req.params.id, function(error, article) {
         console.log(article);
         res.render('blog_show', {
-            titlex: article.title
-            ,  article: article
+            article: article
             , test: 'XYZ'
             , title: 'ABC'
         });

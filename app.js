@@ -67,6 +67,18 @@ app.get('/blog/new', function(req, res) {
 
 app.get('/blog/:id', routes.blog_show);
 
+// edit a blog post
+app.get('/blog/:id/edit', function(req, res) {
+    articleProvider.findById(req.param('_id'), function(error, article) {
+        res.render('blog_edit',
+            { locals: {
+                title: article.title,
+                article: article
+            }
+            });
+    });
+});
+
 // ===========================  POST
 
 app.post('/blog/new', function(req, res){
@@ -77,7 +89,6 @@ app.post('/blog/new', function(req, res){
         res.redirect('/blog')
     });
 });
-
 
 app.post('/blog/addComment'
     , function(req, res) {
@@ -91,6 +102,34 @@ app.post('/blog/addComment'
         });
     });
 
+// update/save an edited blog post
+app.post('/blog/:id/save', function(req, res) {
+    articleProvider.update(req.param('_id'),{
+        title: req.param('title'),
+        body: req.param('body')
+    }, function(error, docs) {
+        res.redirect('/blog')
+    });
+});
+
+// delete a blog post
+app.post('/blog/:id/delete', function(req, res) {        console.log(req);
+    articleProvider.delete(req.param('_id'), function(error, docs) {
+        res.redirect('/blog')
+    });
+});
+
+app.post('/blog/addComment', function(req, res) {
+    articleProvider.addCommentToArticle(req.param('_id'), {
+        person: req.param('person'),
+        comment: req.param('comment'),
+        created_at: new Date()
+    } , function( error, docs) {
+        res.redirect('/blog/' + req.param('_id'))
+    });
+});
+
+//=====================================
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));

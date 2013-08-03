@@ -103,6 +103,8 @@ ArticleProvider.prototype.update = function(articleId, articles, callback) {
 // remove a blog post from the database
 ArticleProvider.prototype.delete = function(articleId, callback) {
 	this.getCollection(function(error, article_collection) {
+        console.log('===DEL===');
+        console.log(articleId);
 		if(error) callback(error);
 		else {
 			article_collection.remove(

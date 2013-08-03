@@ -6,14 +6,16 @@ html
 
             h1= title
             div
-                h4= article.created_at
-                div= titlex
+                h4= article.title
+                div= article.created_at
                 div= article.body
 
+                h4 Comments
                 - each comment in article.comments
                     div.comment
                         div.comment= comment.person + ": " + comment.comment
-                h2 Leave a Comment
+
+                h4 Leave a Comment
                 div#comment-form
                     form( method="post", action="/blog/addComment")
                         input( type="hidden", name="_id", value=article._id.toHexString())
