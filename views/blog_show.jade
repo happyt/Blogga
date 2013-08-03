@@ -3,29 +3,30 @@ html
     include inc/header
         body
             include inc/menubar
-            h1= title
-            div.article
-                div
-                    h4 locals.article.created_at
-                div locals.titlex
-                div locals.article.body
 
-                div comments---
+            h1= title
+            div
+                h4= article.created_at
+                div= titlex
+                div= article.body
+
                 - each comment in article.comments
                     div.comment
-                        div.person= comment.person
-                        div.comment= comment.comment
-                    div
-                        form( method="post", action="/blog/addComment")
-                            input( type="hidden", name="_id", value=article._id.toHexString())
-                            div
-                                span Author :
-                                input( type="text", name="person", id="addCommentPerson")
-                            div
-                                span Comment :
-                                textarea( name="comment", rows=5, id="addCommentComment")
-                            div#editArticleSubmit
-                    input(type="submit", value="Send")
+                        div.comment= comment.person + ": " + comment.comment
+                h2 Leave a Comment
+                div#comment-form
+                    form( method="post", action="/blog/addComment")
+                        input( type="hidden", name="_id", value=article._id.toHexString())
+                        div#name
+                            span your name
+                            input( type="text", name="person", id="addCommentPerson")
+                        div#comment-container
+                            span thoughts
+                            textarea( name="comment", rows=5, id="addCommentComment")
+                        div#editArticleSubmit
+                            input(type="submit", value="Post")
+
+
                 include inc/footer
      include inc/scripts
 

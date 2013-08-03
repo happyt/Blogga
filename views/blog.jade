@@ -14,8 +14,8 @@ html
                         div.media
                             div.title.pull-left
                                 h4
-                                    a(href="/blog/"+article._id.toHexString())!= article.title
-                                    a(class='delete-button', href='google.com') Button
+                                    a(href="/blog/"+article._id)!= article.title
+                                    a(class='delete-button', href='google.com') -->button
                                 div.created_at= article.created_at
                                 p= article.body
 

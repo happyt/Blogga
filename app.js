@@ -55,11 +55,10 @@ app.get('/projects', routes.projects);
 app.get('/test', datafeed.test);
 app.get('/blog', routes.blog);
 
-app.get('/blog/new',
-    function(req, res) {
+app.get('/blog/new', function(req, res) {
 
         console.log('========= NEW');
-        res.render('blog_new.jade', {
+        res.render('blog_new', {
             locals: {
                 title: 'New Post'
             }

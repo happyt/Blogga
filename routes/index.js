@@ -25,7 +25,6 @@ exports.projects = function(req, res){
     res.render('projects', { title: 'Projects', id: 'projects', brand: brand, menus: menus_obj })
 };
 
-
 exports.layout = function(req, res){
     res.render('layout', { title: 'Top BS page', id: 'layout', brand: brand , menus: menus_obj })
 };
@@ -42,15 +41,14 @@ exports.blog = function(req, res){
 };
 
 exports.blog_show = function(req, res) {
-    console.log(req.params.id);
+//    console.log(req.params.id);
     articleProvider.findById(req.params.id, function(error, article) {
-        res.render('blog_show',
-            { locals: {
-                titlex: article.title,
-                article: article
-            },
-            test: 'XYZ',
-            title: 'ABC'
+        console.log(article);
+        res.render('blog_show', {
+            titlex: article.title
+            ,  article: article
+            , test: 'XYZ'
+            , title: 'ABC'
         });
     });
 };
