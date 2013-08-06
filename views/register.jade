@@ -1,0 +1,41 @@
+!!!
+- var menuItems = ["Reader", "ABC", "Fluid", "Table"];
+html
+    include inc/header
+
+    body
+
+        include inc/menubar
+
+        .container
+            form.form-signin(action="/register", method="post")
+                h2.form-signin-heading Please fill in details
+
+                h4 Select group
+
+                select(name='ABC')
+                    option(value='')
+                    each user in menuItems
+                        option(value=user)= user
+
+                div.white-space.pre
+                    input.input-large(type="text", name="username", placeholder="User name")
+                    br
+                    input.input-large(type="text", name="email", placeholder="Email address")
+                    br
+                    input.input-large(type="password", name="password", placeholder="Password")
+                    br
+                    input.input-large(type="password", name="password2", placeholder="Confirm password")
+
+                label.checkbox
+                    <input type="checkbox" value="termsOK" /> Agree to terms and conditions?
+
+            button.btn.btn-large.btn-primary(type="submit") Register
+
+
+    include inc/footer
+
+    include inc/scripts
+
+
+

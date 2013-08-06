@@ -21,9 +21,21 @@ exports.about = function(req, res){
     res.render('about', { title: 'About', id: 'about', brand: brand, menus: menus_obj, test: 'kick this' })
 };
 
+exports.test = function(req, res){
+    res.render('test', { title: 'Projects', id: 'projects', brand: brand, menus: menus_obj })
+};
+
 exports.projects = function(req, res){
     res.render('projects', { title: 'Projects', id: 'projects', brand: brand, menus: menus_obj })
 };
+
+exports.login = function(req, res){
+    res.render('login', { })
+};
+exports.register = function(req, res){
+    res.render('register', { })
+};
+
 
 exports.layout = function(req, res){
     res.render('layout', { title: 'Top BS page', id: 'layout', brand: brand , menus: menus_obj })

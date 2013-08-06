@@ -52,6 +52,8 @@ app.get('/', routes.index);
 app.get('/home', routes.home);
 app.get('/about', routes.about);
 app.get('/projects', routes.projects);
+app.get('/login', routes.login);
+app.get('/register', routes.register);
 app.get('/test', datafeed.test);
 app.get('/blog', routes.blog);
 
@@ -62,10 +64,21 @@ app.get('/blog/new', function(req, res) {
             locals: {
                 title: 'New Post'
             }
-         });
+        });
     });
 
 app.get('/blog/:id', routes.blog_show);
+
+app.get('/menu2',
+    function(req, res) {
+        console.log('========= MENU 2');
+        res.render('menu2', {
+            locals: {
+                title: 'Big menu'
+            }
+        });
+    });
+
 
 // edit a blog post
 app.get('/blog/:id/edit', function(req, res) {
@@ -75,7 +88,7 @@ app.get('/blog/:id/edit', function(req, res) {
                 title: article.title,
                 article: article
             }
-            });
+    	});
     });
 });
 

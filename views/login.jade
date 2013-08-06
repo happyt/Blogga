@@ -1,0 +1,29 @@
+!!!
+html
+    include inc/header
+
+    body
+
+        include inc/menubar
+
+        .container
+            form.form-signin(action="/login", method="post")
+                h2.form-signin-heading Please sign in
+                    &nbsp
+                    button.btn.btn-small.btn-primary(type="submit") Send password
+
+                input.input-block-level(type="text", name="username", placeholder="User name")
+                input.input-block-level(type="password", name="password", placeholder="Password")
+                label.checkbox.
+                    <input type="checkbox" value="remember-me" /> Remember me
+                button.btn.btn-large.btn-primary(type="submit") Sign in
+                &nbsp
+                button.btn.btn-large.btn-primary(type="submit") Register
+
+
+    include inc/footer
+
+    include inc/scripts
+
+
+

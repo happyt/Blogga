@@ -1,13 +1,13 @@
 div.navbar.navbar-fixed-top
     div.navbar-inner
-        div.container
+        div.container-fluid
             a(href='#').brand #{menus}
             ul.nav
                 - var obj = { 'home':'Home','projects':'Projects', 'blog':'Blog', 'about':'About' }
                     - each val, key in obj
                         - if (id == key)
                             li.active
-                                a(href='/#{key}') #{val}
+                                a(href='#{key}') #{val}
                         - else
                             li
-                                a(href='/#{key}') #{val}
+                                a(href='#{key}') #{val}

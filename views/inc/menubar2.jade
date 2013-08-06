@@ -1,0 +1,34 @@
+div.navbar.navbar-fixed-top
+    div.navbar-inner
+        div.container-fluid
+            a(href='#').brand #{menus}
+            ul.nav
+                - var obj = { 'home':'Home','projects':'Projects', 'blog':'Blog', 'about':'About' }
+                    - each val, key in obj
+                        - if (id == key)
+                            li.active
+                                a(href='#{key}') #{val}
+                        - else
+                            li
+                                a(href='#{key}') #{val}
+
+            .dropdown.menu.lobby-return
+                .dropdown-toggle(data-toggle="dropdown",href="#")
+                    b.icon-caret-down
+                ul.dropdown-menu.pull-right(role="menu",aria-labelledby="dLabel")
+                    li
+                        a(href="/") Return to Lobby
+                        a(href="/logout") Logout
+
+            div.btn-group.pull-right
+                a(href='#').dropdown-toggle
+                    i.icon-user Username
+                    span.caret
+
+                        ul.dropdown-menu
+                            li(href='#') Profile
+                            li.divider
+                            li(href='#') Sign Out
+
+
+
